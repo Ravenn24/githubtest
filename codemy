@@ -1,0 +1,9 @@
+
+```{r cars}
+library(ggplot2)
+summary(cars)
+#str(mtcars_tb)
+data.frame(mtcars_tb)
+mtcars[, c("cylinder", "weight")]
+plot(mtcars$cylinder ~mtcars$weight)
+```
